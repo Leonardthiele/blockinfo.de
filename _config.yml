@@ -1,7 +1,7 @@
 # Directory structure
 title: Blockinfo.de
 description: ""
-url: "https://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
 url_http: "http://blockinfo.de"
 twitter_username: Blockinfo_DE
 github_username: blockchain-info

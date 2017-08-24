@@ -17,7 +17,7 @@ comments: true
         <div class="header header-post">
           <img src="{{page.header_image}}" title="{{ page.title }}" class="header-image">
           <h1 class="header-post-title">{{ page.title }}</h1>
-          <div class="header-post-author">{% translate post.from %} {{ author.name }}</div>
+          <div class="header-post-author">{% translate post.from %} {{ author.name }}&nbsp;{% translate post.posted %}&nbsp;{{ page.date | date: '%d.%m.%Y' }}</div>
         </div>
       </div>
     </div>

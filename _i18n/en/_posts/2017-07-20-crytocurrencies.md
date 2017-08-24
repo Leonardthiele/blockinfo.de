@@ -1,6 +1,6 @@
 ---
-title: "What is a cryptocurrency?"
-description: "A simple explanation of cryptocurrencies"
+title: "What is a Cryptocurrency?"
+description: "A simple explanation of Cryptocurrencies"
 author: "Leonard Thiele"
 slug: "cryptocurrencies"
 published_at: 2017-07-20 15:00:00.000000Z
@@ -20,16 +20,13 @@ A Cryptocurrency is quite simply a digital currency. The word "crypto" refers to
 
 #### What is the difference to traditional currencies, like Euro?
 
-There is no finacial institutes, no third party who manages our account and then transfers the money. At most cryptocurrencies, we are the "bank", computers distributed all around the world, calculate our referrals and maintain a persistent list. This list of past referrals, also referred as blockchain, is the most important innovation in cryptocurrency system.
+There is no finacial institutes, no third party who manages our account and then transfers the money. At most cryptocurrencies, we are the "bank", computers distributed all around the world, calculate our referrals and maintain a persistent list. This list of past referrals, also referred as [Blockchain](/en/article/blockchain), is the most important innovation in cryptocurrency system.
 
 ![Bitcoin transactions](/article/cryptocurrencies/bitcoin-transactions.png)
 
 #### Blockchain
 
-The "blockchain" contains all the transfers ever made, collected in blocks. A block is a collection of transactions. With [Bitcoin](/en/article/bitcoin) for example, one block contains 2400 transactions. Every block contains some more information, like the digital and unique "fingerprint" of his predecessor. Once a block is full and once completed, it can never be changed again, because his unique fingerprint would change. This provides the very high security to cryptocurrency transfers.
-
-
-![Blockchain easy](/article/cryptocurrencies/cryptocurrencies_block.png)
+The "[Blockchain](/en/article/blockchain)" contains all the transfers ever made, collected in blocks. A block is a collection of transactions. With [Bitcoin](/en/article/bitcoin) for example, one block contains 2400 transactions. Every block contains some more information, like the digital and unique "fingerprint" of his predecessor. Once a block is full and once completed, it can never be changed again, because his unique fingerprint would change. This provides the very high security to cryptocurrency transfers.
 
 #### My account
 
@@ -42,7 +39,7 @@ If you want to know how much money you have just available, you simply open your
 
 #### How is new money generated?
 
-If, for example, Europe wants to produce new Euros, the European Central Bank can set a certain sum and integrate it into the existing financial system without any real equivalent. Even banks have long been no longer with real countervalues. This is different with cryptocurrencies! All money has a direct value, namely the work of a computer. The calculation time of a computer creates a real value to every created unit. New cryptocurrency units are given to anyone who makes their computer available for calculating new blocks. This process is called "mining".
+If, for example, Europe wants to produce new Euros, the European Central Bank can set a certain sum and integrate it into the existing financial system without any real equivalent. Even banks have long been no longer with real countervalues. This is different with cryptocurrencies! All money has a direct value, namely the work of a computer. The calculation time of a computer creates a real value to every created unit. New cryptocurrency units are given to anyone who makes their computer available for calculating new blocks. This process is called ["mining"](/en/article/mining).
 
 In addition, a lot of cryptocurrencies are already limited in their maximal circulating amount. For example, there can never be more than 21 Million [Bitcoin](/en/article/bitcoin).
 

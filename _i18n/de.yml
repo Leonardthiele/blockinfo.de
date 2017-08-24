@@ -35,6 +35,7 @@ card_information:
 post:
   continue: Weiterlesen
   from: von
+  posted: gepostet am
   helpful: Artikel verständlich?
   improve: Diesen Artikel auf GitHub verbessern
   orig: Original gepostet von
