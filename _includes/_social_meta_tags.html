@@ -8,13 +8,13 @@
 {% endif %}
 
 {% if page.layout == "post" %}
-  <meta property="og:title" content="{{ page.title }} - {{site.title}}">
+  <meta property="og:title" content="{% translate page.title %} - {{ site.title }}">
 {% else %}
-  <meta property="og:title" content="{{site.title}} → {{ page.title }}">
+  <meta property="og:title" content="{{ site.title }} - {% translate page.title %}">
 {% endif %}
 
 {% if page.description %}
-  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:description" content="{% translate page.description %}">
 {% endif %}
 
 {% if page.header_image %}
@@ -28,15 +28,15 @@
 <meta name="twitter:card" content="summary_large_image">
 
 {% if page.layout == "post" %}
-  <meta name="twitter:title" content="{{ page.title }} - {{site.title}}">
+  <meta name="twitter:title" content="{% translate page.title %} - {{site.title}}">
 {% else %}
-  <meta name="twitter:title" content="{{site.title}} → {{ page.title }}">
+  <meta name="twitter:title" content="{{site.title}} - {% translate page.title %}">
 {% endif %}
 
 {% comment %}<meta name="twitter:site" content="@Blockinfo_DE">{% endcomment %}
 {% comment %}<meta name="twitter:creator" content="@Blockinfo_DE">{% endcomment %}
 {% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:description" content="{% translate page.description %}">
 {% endif %}
 {% if page.header_image %}
   <meta name="twitter:image" content="{{ site.url_http }}{{ page.header_image }}">
