@@ -30,8 +30,42 @@ permalink: /
     </div>
   </div>
 
+   <div class="home-section home-section--grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="home-section-headline">{% translate home.important_articles %}</h2>
+        </div>
+      </div>
+      <br>
 
-  <div class="home-section home-section--grey">
+      <div class="row">
+        {% for post in site.posts %}
+          {% if post.categories contains 'sticky' %}
+          <div class="col-md-4 home-card-col">
+            {% include _home_card.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <br>
+      <div class="row text-center">
+        <div class="col-md-12">
+          {% if site.lang == "de" %}
+            {% capture article_link_de %}{{site.baseurl_root}}/article{% endcapture %}
+            <a class="button" href="{{article_link_de}}">{% translate home.view_articles %}</a>
+          {% elsif site.lang != "de" %}
+            {% capture article_link %}{{site.baseurl}}/article{% endcapture %}
+            <a class="button" href="{{article_link}}">{% translate home.view_articles %}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="home-section home-section">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

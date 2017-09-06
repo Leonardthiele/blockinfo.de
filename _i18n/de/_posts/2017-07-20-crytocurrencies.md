@@ -9,6 +9,7 @@ categories:
   - beginner
   - blockchain
   - cryptocurrencies
+  - sticky
 header_image: "/article/cryptocurrencies/header.png"
 thumbnail_image: "/article/cryptocurrencies/thumbnail.jpg"
 ---

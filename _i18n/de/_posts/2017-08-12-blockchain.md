@@ -8,6 +8,7 @@ language: de
 categories:
   - beginner
   - blockchain
+  - sticky
 header_image: "/article/blockchain/header.png"
 ---
 
