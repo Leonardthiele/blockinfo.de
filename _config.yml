@@ -4,11 +4,11 @@ description: ""
 url: "http://blockinfo.de" # the base hostname & protocol for your site, e.g. http://example.com
 url_http: "http://blockinfo.de"
 twitter_username: Blockinfo_DE
-github_username: blockchain-info
+github_username: Leonardthiele
 envelope_username: Leonardthiele@googlemail.com
 ga_property: "UA-102954545-1"
 permalink: /article/:slug/
-repository_url: "https://github.com/blockchain-info/blockinfo.de"
+repository_url: "https://github.com/Leonardthiele/blockinfo.de"
 twitter_url: https://twitter.com
 ws_course_id: 17
 custom_search_id: "011221661346354572919:zpf1hzv67my"
